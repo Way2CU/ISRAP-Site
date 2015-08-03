@@ -10,3 +10,269 @@
  h1,h2,h3,h4,h5,h6,p {
  	margin: 0px;
  }
+
+  h2 {
+ 	font-size: 1.8em;
+ }
+
+  /*features section*/
+
+section.features {
+	display: block;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section.features div {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	width:90%;
+	position: relative;
+	transition:all 0.3s;
+}
+
+section.features div:hover {
+	color:#f2623e;
+}
+
+section.features div svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	fill:#f2623e;
+	width: 200px;
+	height: 100px;
+	transition:all 0.3s;
+}
+
+section.features div:hover svg {
+	fill:#00405d;
+}
+
+
+/*Section Professional*/
+
+section.professional {
+	display: block;
+	text-align: left;
+	background-image: url(../images/mobile-professional-adviser.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:100% auto;
+	min-height:444px;
+}
+
+section.professional h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	font-weight: 300;
+	width:95%;
+}
+
+section.professional strong {
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:#f2623e;
+	transition:all 0.3s; 
+}
+
+section.professional p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+	font-size:1.1em;
+	width: 95%; 
+}
+
+section.bigger {
+	display: block;
+	padding-bottom: 250px;
+	text-align: left;
+	background-color: white;
+	background-image: url(../images/mobile-bigger-better.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size:100% auto;
+	min-height: 420px; 
+}
+
+section.bigger article {
+	display: block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+section.bigger article h2 {
+	display: block;
+	padding-top: 20px;
+	font-weight: 300;	
+}
+
+section.bigger article h2 strong {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f2623e;
+    color: white;
+    transition: all 0.3s;
+    width: 240px;
+}
+
+section.bigger article strong:hover {
+	background-color:#00405d; 	
+}
+
+section.bigger article p {
+	display: block;
+	font-size: 1.1em;
+}
+
+section.work  {
+	display: block;
+	padding-bottom: 50px;
+	text-align: left;
+	background-color:#192A3E;
+	background-image: url(../images/mobile-work-with-proffesionals.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size:100% auto;
+	min-height: 622px; 
+}
+
+section.work article {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	color:white;
+}
+
+section.work article h2 {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	font-weight: 300;	
+}
+
+section.work article strong {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f2623e;
+    transition: all 0.3s; 	
+}
+
+section.work article strong:hover {
+	background-color:#00405d; 	
+}
+
+section.work article p {
+	display: block;
+	font-size: 1.1em;
+}
+
+section.founder {
+	display: block;
+	text-align: left;
+}
+
+section.founder article {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	width: 95%;
+}
+
+section.founder article h2 {
+	display:inline-block;
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	font-weight: 300;
+}
+
+section.founder article strong {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:#00405d;
+	transition:all 0.3s;
+	color:white;		
+}
+
+section.founder article p {
+	display: block;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+section.founder figure {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 90%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+section.founder div {
+    display:block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 95%;
+}
+
+section.founder div h3 {
+	display: block;
+	font-size:1.7em;
+	color:#f2623e;
+	position: relative;
+}
+
+section.founder div h3:before {
+	content: "";
+	position: absolute;
+	top:100%;
+	left: 0px;
+	background-color:#f2623e;
+	width: 0%;
+	height: 3px; 
+	transition:all 0.3s;
+}
+
+section.founder div:hover h3:before {
+	width: 100%;
+}
+
+section.founder div p {
+	display: block;
+	padding-top: 10px;
+}
+
+
+
