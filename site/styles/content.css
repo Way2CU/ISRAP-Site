@@ -71,6 +71,7 @@ section.professional h2 {
 	padding-bottom: 40px;
 	color: white;
 	font-weight: 300;
+	text-transform: uppercase;
 	width:50%;
 }
 
@@ -78,7 +79,8 @@ section.professional strong {
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color:#f2623e;
-	transition:all 0.3s; 
+	transition:all 0.3s;
+	text-transform: uppercase; 
 }
 
 section.professional strong:hover {
@@ -113,7 +115,8 @@ section.bigger article {
 section.bigger article h2 {
 	display: block;
 	padding-top: 80px;
-	font-weight: 300;	
+	font-weight: 300;
+	text-transform: uppercase;		
 }
 
 section.bigger article h2 strong {
@@ -126,7 +129,9 @@ section.bigger article h2 strong {
 	padding-right: 10px;
 	background-color:#f2623e;
 	color:white;
-	transition:all 0.3s; 
+	text-transform: uppercase;	
+	transition:all 0.3s;
+
 }
 
 section.bigger article strong:hover {
@@ -159,7 +164,8 @@ section.work article h2 {
 	display: block;
 	padding-top: 80px;
 	padding-bottom: 40px;	
-	font-weight: 300;	
+	font-weight: 300;
+	text-transform: uppercase;		
 }
 
 section.work article strong {
@@ -170,7 +176,8 @@ section.work article strong {
     padding-left: 10px;
     padding-right: 10px;
     background-color: #f2623e;
-    transition: all 0.3s; 	
+    transition: all 0.3s;
+   	text-transform: uppercase;  	
 }
 
 section.work article strong:hover {
@@ -200,6 +207,7 @@ section.founder article h2 {
 	vertical-align: middle;
 	padding-bottom: 40px;	
 	font-weight: 300;
+	text-transform: uppercase;	
 }
 
 section.founder article strong {
@@ -210,7 +218,8 @@ section.founder article strong {
 	padding-right: 10px;
 	background-color:#00405d;
 	transition:all 0.3s;
-	color:white;		
+	color:white;
+	text-transform: uppercase;			
 }
 
 section.founder article strong:hover {

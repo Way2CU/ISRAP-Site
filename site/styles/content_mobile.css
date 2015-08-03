@@ -75,13 +75,15 @@ section.professional h2 {
 	color: white;
 	font-weight: 300;
 	width:95%;
+	text-transform: uppercase;	
 }
 
 section.professional strong {
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color:#f2623e;
-	transition:all 0.3s; 
+	transition:all 0.3s;
+	text-transform: uppercase;	 
 }
 
 section.professional p {
@@ -116,7 +118,8 @@ section.bigger article {
 section.bigger article h2 {
 	display: block;
 	padding-top: 20px;
-	font-weight: 300;	
+	font-weight: 300;
+	text-transform: uppercase;		
 }
 
 section.bigger article h2 strong {
@@ -131,6 +134,7 @@ section.bigger article h2 strong {
     color: white;
     transition: all 0.3s;
     width: 240px;
+   	text-transform: uppercase; 
 }
 
 section.bigger article strong:hover {
@@ -166,7 +170,8 @@ section.work article h2 {
 	display: block;
 	padding-top: 20px;
 	padding-bottom: 20px;	
-	font-weight: 300;	
+	font-weight: 300;
+	text-transform: uppercase;		
 }
 
 section.work article strong {
@@ -176,7 +181,8 @@ section.work article strong {
     padding-left: 10px;
     padding-right: 10px;
     background-color: #f2623e;
-    transition: all 0.3s; 	
+    transition: all 0.3s;
+   	text-transform: uppercase;  	
 }
 
 section.work article strong:hover {
@@ -207,6 +213,7 @@ section.founder article h2 {
 	padding-top: 20px;
 	padding-bottom: 20px;	
 	font-weight: 300;
+	text-transform: uppercase;	
 }
 
 section.founder article strong {
@@ -217,7 +224,8 @@ section.founder article strong {
 	padding-right: 10px;
 	background-color:#00405d;
 	transition:all 0.3s;
-	color:white;		
+	color:white;
+	text-transform: uppercase;			
 }
 
 section.founder article p {
