@@ -34,6 +34,59 @@
 				</a>
 
 			</header>
+
+			<section class="features">
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="features"
+					template="parts/article_group.xml"
+				/>
+			</section>
+
+			<section class="professional">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="professional_adviser"
+					template="parts/article_about.xml"
+					/>
+			</section>
+
+			<section class="bigger">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="bigger"
+					template="parts/article2.xml"
+					/>
+			</section>
+
+			<section class="work">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="work_with"
+					template="parts/article2.xml"
+					/>
+			</section>
+
+			<section class="founder">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="founder_article"
+					template="parts/article3.xml"
+					/>
+
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="israel-cv"
+					template="parts/article_group2.xml"
+				/>	
+				
+			</section>
 		</body>
 	</html>
 </document>
