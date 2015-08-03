@@ -87,6 +87,34 @@
 				/>	
 				
 			</section>
+
+			<footer>
+				<div class="footer_content">
+					<a
+						href="'tel:'.urlencode(Language::getText('phone'))"
+						cms:eval="href"
+						class="phone"
+						>
+						<svg>
+							<use
+								href="#icon-phone"
+								xlink:href="site/images/site-icons.svg#icon-phone"
+								/>
+						</svg>
+						<cms:text constant="phone"/>
+					</a>
+					<cms:module
+						name="contact_form"
+						action="show"
+						text_id="contact"
+						/>
+				</div>	
+
+				<div class="copyright">
+					<span><cms:text constant="copyright"/></span>
+				</div>
+
+			</footer>
 		</body>
 	</html>
 </document>
