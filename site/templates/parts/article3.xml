@@ -1,0 +1,11 @@
+<document>
+	<article>
+		<cms:markdown param="content" multilanguage="yes"/>
+	</article>
+	<cms:module
+		name="gallery"
+		action="show_image"
+		text_id="founder"
+		template="parts/image.xml"
+		/>
+</document>

@@ -1,0 +1,35 @@
+<document>
+	<div class="$params['text_id']" cms:eval="class">
+
+		<cms:if condition="$params['text_id'] == feature1">
+			<svg>
+				<use
+					href="#icon-founder"
+					xlink:href="site/images/site-icons.svg#icon-founder"
+					/>
+			</svg>
+			<cms:markdown param="content" multilanguage="yes"/>
+		</cms:if>
+
+		<cms:if condition="$params['text_id'] == feature2">
+			<svg>
+				<use
+					href="#icon-trends"
+					xlink:href="site/images/site-icons.svg#icon-trends"
+					/>
+			</svg>
+			<cms:markdown param="content" multilanguage="yes"/>
+		</cms:if>
+
+		<cms:if condition="$params['text_id'] == feature3">
+			<svg>
+				<use
+					href="#icon-expertise"
+					xlink:href="site/images/site-icons.svg#icon-expertise"
+					/>
+			</svg>
+			<cms:markdown param="content" multilanguage="yes"/>
+		</cms:if>
+
+	</div>
+</document>
