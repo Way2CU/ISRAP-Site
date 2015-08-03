@@ -56,13 +56,14 @@ section.features div:hover svg {
 /*Section Professional*/
 
 section.professional {
-	display: block;
-	text-align: left;
-	background-image: url(../images/mobile-professional-adviser.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size:100% auto;
-	min-height:444px;
+    display: block;
+    padding-bottom: 50px;
+    text-align: left;
+    background-image: url(../images/mobile-professional-adviser.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    min-height: 444px;
 }
 
 section.professional h2 {
@@ -245,6 +246,10 @@ section.founder div {
     margin-right: auto;
     text-align: left;
     width: 95%;
+}
+
+section.founder div:last-of-type {
+	padding-bottom: 20px;
 }
 
 section.founder div h3 {
