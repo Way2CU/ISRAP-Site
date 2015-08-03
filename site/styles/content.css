@@ -274,4 +274,103 @@ section.founder div p {
 	padding-top: 10px;
 }
 
+/*Tablet Version*/
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+header a.logo {
+	padding-left: 20px;
+}
+
+header p {
+	padding-left: 20px;
+}
+
+header a.phone {
+	margin-left: 20px;
+	border:1px solid white;
+}
+
+header a.phone:before {
+	content:none;
+}
+
+section.features div {
+	width: 280px;
+}
+
+section.professional {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    padding: 0px calc((100vw - 1200px) / 2);
+    background-image: url(../images/large-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: initial;
+    background-size: 1920px 900px;
+    min-height: 900px;
+}
+
+section.professional h2 {
+	padding-left: 20px;
+}
+
+section.professional p {
+	padding-left: 20px;
+	font-size: 1.6em;
+}
+
+section.bigger {
+    background-position: center bottom;	
+}
+
+section.bigger article h2 strong {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f2623e;
+    color: white;
+    transition: all 0.3s;
+    width: 420px;
+}
+
+section.bigger article p {
+    display: block;
+    font-size: 1.6em;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+section.work article {
+	margin-left: 20px;
+}
+
+section.founder article {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    padding-bottom: 80px;
+    width: 65%;
+}
+
+section.founder div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 5%;
+    width: 28%;
+}
+
+section.founder div:first-of-type {
+    margin-left: 3%;
+}
+
+
+
+}
+
 
