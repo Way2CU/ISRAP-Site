@@ -46,10 +46,10 @@ footer a.phone:hover {
 footer a.phone:before {
 	content: "";
 	position: absolute;
-	top: 5%;
-	left: 1%;
-	width: 98%;
-	height: 90%;
+	top: 5px;
+	left: 10px;
+	width: calc(98% - 15px);
+	height: calc(98% - 10px);
 	border: 1px solid white;
 	transition: all 0.3s;
 }
@@ -134,10 +134,10 @@ form div.controls button {
 	padding-top: 17px;
 	padding-bottom: 17px;
 	width: 100%;
-	color:#f2623e;
+	color:white;
 	font-size: 1.2em;
-	border:1px solid #f2623e;
-	background-color: white;
+	border:1px solid white;
+	background-color: #00405d;
 	cursor: pointer;
 	transition:all 0.3s;	
 }
