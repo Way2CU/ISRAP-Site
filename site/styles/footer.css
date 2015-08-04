@@ -42,14 +42,14 @@ footer a.phone:hover {
 }
 
 footer a.phone:before {
-    content:"";
-    position: absolute;
-    top:5%;
-    left:2%;
-    width:96%;
-    height:90%;
-    border:1px solid white;
-    transition:all 0.3s;
+	content: "";
+	position: absolute;
+	top: 5%;
+	left: 1%;
+	width: 98%;
+	height: 90%;
+	border: 1px solid white;
+	transition: all 0.3s;
 }
 
 footer a.phone:hover:before {
