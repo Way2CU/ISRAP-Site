@@ -37,6 +37,8 @@ footer a.phone {
     position: relative;
     transition: all 0.3s;
     width: 200px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 footer a.phone svg {

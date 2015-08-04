@@ -77,6 +77,8 @@ header a.phone {
     transition: all 0.3s;
     border:1px solid white;
     width: 200px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 
