@@ -60,10 +60,10 @@ header a.phone:hover {
 header a.phone:before {
   content: "";
   position: absolute;
-  top: 5%;
-  left: 1%;
-  width: 98%;
-  height: 90%;
+  top: 5px;
+  left: 10px;
+  width: calc(98% - 15px);
+  height: calc(98% - 10px);
   border: 1px solid white;
   transition: all 0.3s;
 }
