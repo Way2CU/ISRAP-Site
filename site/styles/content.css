@@ -116,7 +116,7 @@ section.bigger {
 	background-image: url(../images/bigger-better.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size:1920px 700px;
+	background-size:cover;
 	min-height: 700px; 
 }
 
@@ -155,6 +155,7 @@ section.bigger article strong:hover {
 
 section.bigger article p {
 	display: block;
+	padding-bottom: 
 	font-size: 1.8em;
 }
 
