@@ -14,6 +14,21 @@
  	font-size: 3em;
  }
 
+
+div.dialog div.title {
+	text-align: center;
+}
+
+div.dialog.visible div.content div.inner_content {
+	text-align: center;
+	height: 200px !important;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 300px 110px;
+}
+
+
  /*features section*/
 
 section.features {
