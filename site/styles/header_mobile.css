@@ -67,6 +67,10 @@ nav.mobile_menu.visible {
 	text-align: center;
 }
 
+nav.mobile_menu.visible a {
+	text-transform: capitalize;
+}
+
 header {
 	display: block;
 	text-align: center;
