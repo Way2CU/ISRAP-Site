@@ -13,6 +13,12 @@
 			<cms:desktop>
 			<header>
 				<cms:svg file="../images/site-icons.svg"/>
+				<div class="lang">
+					<cms:module
+						name="language_menu"
+						action="print"
+						/>
+				</div>
 				<a href="javascript:void(0)" class="logo"></a>
 				<cms:module
 					name="articles"
@@ -55,6 +61,12 @@
 							</svg>
 						</a>
 					</div>
+					<nav class="mobile_menu">
+						<cms:module
+						name="language_menu"
+						action="print"
+						/>
+					</nav>
 				<header>
 					<cms:module
 					name="articles"
