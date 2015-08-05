@@ -40,6 +40,33 @@ div.mobile_title a.phone svg {
 	fill:#f2623e;
 }
 
+div.mobile_title a.menu {
+	position: absolute;
+	top:50%;
+	margin-top: -17.5px;
+	right: 5px;
+	width: 35px;
+	height: 35px;
+	background-image: url(../images/languages-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 35px 35px;
+}
+
+nav.mobile_menu {
+	height: 50%!important;
+	top:54px !important;
+	text-align: center;
+
+}
+
+nav.mobile_menu.visible {
+	top:54px !important;
+	width: 100%;
+	height: 50%!important;
+	text-align: center;
+}
+
 header {
 	display: block;
 	text-align: center;

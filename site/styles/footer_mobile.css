@@ -110,16 +110,16 @@ form div.controls {
 }
 
 form div.controls button {
-    display: block;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    width: 100%;
-    color: #f2623e;
-    font-size: 1.2em;
-    border: 1px solid #f2623e;
-    background-color: white;
-    cursor: pointer;
-    transition: all 0.3s;	
+	display: block;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	width: 100%;
+	color:white;
+	font-size: 1.2em;
+	border:1px solid white;
+	background-color: #00405d;
+	cursor: pointer;
+	transition:all 0.3s;
 }
 
 form div.controls button:hover {
