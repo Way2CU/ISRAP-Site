@@ -95,8 +95,8 @@ header p {
 
 header a.phone {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;
+    margin-right:40px;
     background-color: #f2623e;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -107,7 +107,6 @@ header a.phone {
     position: relative;
     transition: all 0.3s;
     border:1px solid white;
-    width: 200px;
     font-family: sans-serif;
     font-weight: bold;
 }
