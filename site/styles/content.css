@@ -101,29 +101,29 @@ section.professional strong {
 	padding-right: 10px;
 	background-color:#f2623e;
 	transition:all 0.3s;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 section.professional strong:hover {
-	background-color:#00405d; 
+	background-color:#00405d;
 }
 
 section.professional p {
 	display: block;
 	color:white;
 	font-size:1.8em;
-	width: 50%; 
+	width: 50%;
 }
 
 section.bigger {
 	display: block;
 	text-align: right;
-	padding:0px calc((100vw - 1200px) / 2);	
+	padding:0px calc((100vw - 1200px) / 2);
 	background-image: url(../images/bigger-better.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size:cover;
-	min-height: 700px; 
+	min-height: 700px;
 }
 
 section.bigger article {
@@ -137,7 +137,7 @@ section.bigger article h2 {
 	display: block;
 	padding-top: 80px;
 	font-weight: 300;
-	text-transform: uppercase;		
+	text-transform: uppercase;
 }
 
 section.bigger article h2 strong {
@@ -150,18 +150,18 @@ section.bigger article h2 strong {
 	padding-right: 10px;
 	background-color:#f2623e;
 	color:white;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	transition:all 0.3s;
 
 }
 
 section.bigger article strong:hover {
-	background-color:#00405d; 	
+	background-color:#00405d;
 }
 
 section.bigger article p {
 	display: block;
-	padding-bottom:20px; 
+	padding-bottom:20px;
 	font-size: 1.8em;
 }
 
@@ -173,7 +173,7 @@ section.work  {
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size:1920px 700px;
-	min-height: 700px; 
+	min-height: 700px;
 }
 
 section.work article {
@@ -185,9 +185,9 @@ section.work article {
 section.work article h2 {
 	display: block;
 	padding-top: 80px;
-	padding-bottom: 40px;	
+	padding-bottom: 40px;
 	font-weight: 300;
-	text-transform: uppercase;		
+	text-transform: uppercase;
 }
 
 section.work article strong {
@@ -199,11 +199,11 @@ section.work article strong {
     padding-right: 10px;
     background-color: #f2623e;
     transition: all 0.3s;
-   	text-transform: uppercase;  	
+   	text-transform: uppercase;
 }
 
 section.work article strong:hover {
-	background-color:#00405d; 	
+	background-color:#00405d;
 }
 
 section.work article p {
@@ -227,9 +227,9 @@ section.founder article {
 section.founder article h2 {
 	display:inline-block;
 	vertical-align: middle;
-	padding-bottom: 40px;	
+	padding-bottom: 40px;
 	font-weight: 300;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 section.founder article strong {
@@ -241,11 +241,11 @@ section.founder article strong {
 	background-color:#00405d;
 	transition:all 0.3s;
 	color:white;
-	text-transform: uppercase;			
+	text-transform: uppercase;
 }
 
 section.founder article strong:hover {
-	background-color:#f2623e; 
+	background-color:#f2623e;
 }
 
 section.founder article p {
@@ -292,7 +292,7 @@ section.founder div h3:before {
 	left: 0px;
 	background-color:#f2623e;
 	width: 0%;
-	height: 3px; 
+	height: 3px;
 	transition:all 0.3s;
 }
 
@@ -310,7 +310,7 @@ section.founder div p {
 @media all and (max-width: 1024px) and (min-width: 768px) {
 header div.lang {
 	padding-left: 15px;
-}	
+}
 header a.logo {
 	padding-left: 20px;
 }
@@ -355,7 +355,7 @@ section.professional p {
 }
 
 section.bigger {
-    background-position: center bottom;	
+    background-position: center bottom;
 }
 
 section.bigger article h2 strong {
@@ -406,5 +406,3 @@ section.founder div:first-of-type {
 
 
 }
-
-
