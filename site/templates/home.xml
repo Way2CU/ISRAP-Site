@@ -9,6 +9,7 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:raw file="parts/gtm.txt"/>
 			<!-- Desktop Header -->
 			<cms:desktop>
 			<header>
@@ -140,8 +141,8 @@
 					action="show_group"
 					text_id="israel-cv"
 					template="parts/article_group2.xml"
-				/>	
-				
+				/>
+
 			</section>
 
 			<footer>
@@ -164,7 +165,7 @@
 						action="show"
 						text_id="contact"
 						/>
-				</div>	
+				</div>
 
 				<div class="copyright">
 					<span><cms:text constant="copyright"/></span>
